@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Desktop view</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div class="iframe-container">
+            <!--pptx container-->
+            <iframe id="iframe"
+                src="https://onedrive.live.com/embed?resid=5B39202DA7BBA18D%2119029&amp;authkey=!AF4bngJB1TK4d3s&amp;em=2&amp;wdAr=0.5625"
+                width="476px" height="288px" frameborder="0">Documento di <a target="_blank"
+                    href="https://office.com">Microsoft Office</a> incorporato, con tecnologia <a target="_blank"
+                    href="https://office.com/webapps">Office</a>.
+            </iframe>
+            <!-- Menu a discesa per selezionare l'URL dell'iframe -->
+            <a href="index.html">HOME</a>
+            <input type="text" id="searchInput" placeholder="Filtra la ricerca..." oninput="filtroOpzioni()">
+            <select id="urlSelector" onchange="cambiaURL()">
+                <option value="https://onedrive.live.com/embed?resid=5B39202DA7BBA18D%2119029&amp;authkey=!AF4bngJB1TK4d3s&amp;em=2&amp;wdAr=0.5625">DEFAULT</option>
+                <option value="3contents.html">BUONOCORE ROSARIO ELIA</option>
+            </select>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home di ReadUs!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="manifest" href="manifest.json"> <!-- PWA -->
+</head>
+
+<body>
+    <h1>Benvenuto in ReadUs!</h1>
+    <p>Clicca il bottone per visualizzare i contenuti disponibili!</p>
+    <button onclick="vaiAllaPagina()">Vai alla pagina</button>
+
+    <script>
+        function vaiAllaPagina() {
+            window.location.href = 'officeViewer.html'; // Sostituisci 'pagina_di_destinazione.html' con l'URL della pagina a cui vuoi reindirizzare.
+        }
+    </script>
+    <style>
+        body {
+            background-image: url('sfondo.jpg');
+            /* Sostituisci 'sfondo.jpg' con il percorso dell'immagine di sfondo desiderata */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1,
+        p {
+            color: #000000;
+            /* Colore del testo bianco */
+            text-align: center;
+        }
+
+        button {
+            background-color: #007bff;
+            /* Colore di sfondo del bottone */
+            color: #fff;
+            /* Colore del testo del bottone */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            /* Cambia il colore di sfondo del bottone al passaggio del mouse */
+        }
+
+        /* Media query per dispositivi con una larghezza massima di 768px (tipicamente smartphone) */
+        @media screen and (max-width: 1000px) {
+
+            h1,
+            p {
+                font-size: 2rem;
+                /* Dimensione del testo per dispositivi mobili */
+                padding: 5px;
+            }
+
+            button {
+                font-size: 2rem;
+                padding: 20px;
+                border-radius: 50px;
+            }
+        }
+    </style>
+    <link rel="manifest" href="manifest.json"> <!-- PWA -->
+</body>
+
+</html>

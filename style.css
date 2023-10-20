@@ -1,0 +1,103 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div,
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #22222200;
+}
+
+.iframe-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff00;
+    overflow-y: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#urlSelector,
+a {
+    position: fixed;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.255);
+}
+
+a {
+    left: 20px;
+    top: 30px;
+    text-decoration: none;
+}
+
+#urlSelector {
+    right: 30px;
+    bottom: 30px;
+}
+
+* {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select {
+    text-align-last: center;
+}
+
+@media (max-width: 1000px) {
+
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    #urlSelector,
+    a {
+        max-width: 100%;
+        font-size: .7rem;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+    }
+
+    a {
+        left: 20px;
+        top: 10px;
+    }
+
+    #urlSelector {
+        right: 15px;
+    }
+
+    #searchInput {
+        visibility: hidden;
+    }
+}
+
+input {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}

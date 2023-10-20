@@ -1,0 +1,10 @@
+Come visualizzare il proprio powerpoint sulla pagina web?
+-Accedere al powerpoint tramite il sito web di office
+-Aprire il powerpoint e andare su File>Condividi>Incorpora
+-Copiare il codice iframe e chiudere la finestra
+
+Ora apri il file "index.html" o "mobile.html" e sostituisci l'iframe presente con quello copiato in precedenza.
+
+Tutto pronto! Ora quando aprirai il tuo file html potrai visualizzare il tuo powerpoint tramite il browser.
+
+NB: il progetto è stato pensato per offrire una visualizzazione mobile e/o desktop da creare separatamente e inserire nei file html corretti manualmente.
