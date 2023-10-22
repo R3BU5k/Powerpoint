@@ -4,8 +4,8 @@
   "description": "Benvenuto! Questa web app ti permette di accedere a contenuti realizzati dagli studenti della 4AT su argomenti di Letteratura e Storia, comodamente da qualsiasi dispositivo con una connessione ad Internet.",
 
   "start_url": ".",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#FFE699",
+  "background_color": "#FFE699",
   "display": "standalone",
   "icons":[
     {
